@@ -1,1 +1,2 @@
-web: node web.js
+web: phantomjs --webdriver $PORT
+worker: node web.js 
